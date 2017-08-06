@@ -5,10 +5,10 @@ var element= document.getElementById('main-text');
 element.innerHTML = 'New Value';
 
 var img=document.getElementById('madi');
-var moveleft=0;
+var marginLeft=0;
 function moveRight(){
-    moveleft=moveleft+10;
-    img.style.moveleft=moveleft+ 'px';
+    marginLeft=marginLeft+10;
+    img.style.marginLeft=marginLeft+ 'px';
 }
 img.onclick = function() {
     var interval=setInterval(moveRight,100);
